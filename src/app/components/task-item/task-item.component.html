@@ -1,4 +1,5 @@
 <div class="task">
-    <h3>{{ oneTask?.text }} <fa-icon (click)="deleteOneTask()"  [ngStyle]="{'color' : 'red', 'cursor' : 'pointer'}" [icon]="fatimes"></fa-icon> </h3>
+    <h3>{{ oneTask?.text }} <fa-icon (click)="onDelete(oneTask)" [ngStyle]="{'color' : 'red', 'cursor' : 'pointer'}" [icon]="fatimes"></fa-icon>
+    </h3>
     <p class="reminder">{{ oneTask?.day }}</p>
 </div>
