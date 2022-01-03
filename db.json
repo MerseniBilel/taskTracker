@@ -10,7 +10,13 @@
       "id": 2,
       "text": "Go to the coffe shop",
       "day": "May 14th at 6: 30pm",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Meet hadoula",
+      "day": "May 14th at 6: 30pm",
+      "reminder": false
     }
   ]
 }

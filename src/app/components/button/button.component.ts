@@ -19,7 +19,6 @@ export class ButtonComponent implements OnInit {
 
   onClick(){
     this.toggleForm.emit();
-    this.color === "green" ? this.color = "red" : this.color = "green"
   }
 
 }
