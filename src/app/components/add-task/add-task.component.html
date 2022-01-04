@@ -1,4 +1,4 @@
-<form class="add-form" (ngSubmit)="onSubmit()">
+<form class=" {{ showForm ? 'add-form' : 'showForm' }}" (ngSubmit)="onSubmit()">
     <div class="form-control">
         <label for="title">Task Title</label>
         <input type="text" placeholder="task Title" name="title" [(ngModel)]="title" id="title">

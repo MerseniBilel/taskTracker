@@ -1,22 +1,10 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Doctor Appointment",
-      "day": "May 5th at 2: 30pm",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Go to the coffe shop",
-      "day": "May 14th at 6: 30pm",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "Meet hadoula",
-      "day": "May 14th at 6: 30pm",
-      "reminder": false
+      "text": "This is the first task",
+      "day": "may 4th at 4pm",
+      "reminder": false,
+      "id": 1
     }
   ]
 }

@@ -6,8 +6,8 @@ import { Component, OnInit , Input, Output, EventEmitter} from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent implements OnInit {
-  @Input() color : string = 'black' ;
-  @Input() text : string = 'Toggle';
+  @Input() color : string = '' ;
+  @Input() text : string = '';
   @Output() toggleForm = new EventEmitter();
 
   constructor() {

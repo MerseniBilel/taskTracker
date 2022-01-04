@@ -1,4 +1,9 @@
 <header>
-    {{title}}
-    <app-button [color]="'green'" [text]="'Add'" (toggleForm)="toggleEventTask()"></app-button>
+  {{ title }}
+  <app-button
+    *ngIf="hasRoute('/')"
+    color=" {{ showForm ? 'black' : 'green' }} "
+    text=" {{ showForm ? 'Close' : 'Add' }} "
+    (toggleForm)="toggleEventTask()"
+  ></app-button>
 </header>
